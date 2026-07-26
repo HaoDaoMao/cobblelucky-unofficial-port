@@ -1,0 +1,5 @@
+accessWidener v2 named
+
+# Remove final from ResourceLocation so class_2960 can extend it
+extendable class net/minecraft/resources/ResourceLocation
+extendable class net/minecraft/world/phys/Vec3

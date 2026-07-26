@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.scouter.cobblelucky.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "CobblemonCompatibilityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

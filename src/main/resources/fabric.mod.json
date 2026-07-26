@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "cobblelucky",
+  "version": "${version}",
+  "name": "Cobblemon Lucky Blocks",
+  "description": "A Lucky Block Mod for Cobblemon! Adds lucky blocks that can give random Pokémon or items.",
+  "authors": ["Scouter"],
+  "contact": {
+    "issues": "https://github.com/Scouter456/Cobblemon_Lucky_Blocks/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/cobblelucky/cobblemon_lucky_blocks_logo.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.scouter.cobblelucky.CobbleLucky"
+    ],
+    "client": [
+      "com.scouter.cobblelucky.setup.ClientSetup"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.17.2",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": ">=0.116.6",
+    "cobblemon": ">=1.7.3",
+    "fabric-language-kotlin": ">=1.12.0"
+  },
+  "mixins": [
+    "cobblelucky.mixins.json"
+  ]
+}
